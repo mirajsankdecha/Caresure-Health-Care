@@ -1,3 +1,0 @@
-dbname:bis
-user:admin
-pass:admin
