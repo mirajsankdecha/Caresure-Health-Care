@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con = mysqli_connect("localhost", "root", "", "caresure");
+$con = mysqli_connect("sql304.infinityfree.com", "if0_35724914", "oDrVXYn3NvpgsWF", "if0_35724914_caresure");
 if (isset($_POST['patsub1'])) {
   $fname = $_POST['fname'];
   $lname = $_POST['lname'];

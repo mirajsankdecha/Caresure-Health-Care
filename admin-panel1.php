@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-$con = mysqli_connect("localhost", "root", "", "caresure");
+$con = mysqli_connect("sql304.infinityfree.com", "if0_35724914", "oDrVXYn3NvpgsWF", "if0_35724914_caresure");
 
 include('newfunc.php');
 
@@ -276,7 +276,7 @@ if (isset($_POST['docsub1'])) {
               </thead>
               <tbody>
                 <?php
-                $con = mysqli_connect("localhost", "root", "", "caresure");
+                $con = mysqli_connect("sql304.infinityfree.com", "if0_35724914", "oDrVXYn3NvpgsWF", "if0_35724914_caresure");
                 global $con;
                 $query = "select * from doctb";
                 $result = mysqli_query($con, $query);
@@ -328,7 +328,7 @@ if (isset($_POST['docsub1'])) {
               </thead>
               <tbody>
                 <?php
-                $con = mysqli_connect("localhost", "root", "", "caresure");
+                $con = mysqli_connect("sql304.infinityfree.com", "if0_35724914", "oDrVXYn3NvpgsWF", "if0_35724914_caresure");
                 global $con;
                 $query = "select * from patreg";
                 $result = mysqli_query($con, $query);
@@ -384,7 +384,7 @@ if (isset($_POST['docsub1'])) {
                   </thead>
                   <tbody>
                     <?php
-                    $con = mysqli_connect("localhost", "root", "", "caresure");
+                    $con = mysqli_connect("sql304.infinityfree.com", "if0_35724914", "oDrVXYn3NvpgsWF", "if0_35724914_caresure");
                     global $con;
                     $query = "select * from prestb";
                     $result = mysqli_query($con, $query);
@@ -457,7 +457,7 @@ if (isset($_POST['docsub1'])) {
               <tbody>
                 <?php
 
-                $con = mysqli_connect("localhost", "root", "", "caresure");
+                $con = mysqli_connect("sql304.infinityfree.com", "if0_35724914", "oDrVXYn3NvpgsWF", "if0_35724914_caresure");
                 global $con;
 
                 $query = "select * from appointmenttb;";
@@ -565,7 +565,7 @@ if (isset($_POST['docsub1'])) {
               <tbody>
                 <?php
 
-                $con = mysqli_connect("localhost", "root", "", "caresure");
+                $con = mysqli_connect("sql304.infinityfree.com", "if0_35724914", "oDrVXYn3NvpgsWF", "if0_35724914_caresure");
                 global $con;
 
                 $query = "select * from contact;";
