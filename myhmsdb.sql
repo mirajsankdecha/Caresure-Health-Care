@@ -38,8 +38,12 @@ CREATE TABLE `admintb` (
 --
 
 INSERT INTO `admintb` (`username`, `password`) VALUES
-('admin', 'admin');
-
+('miraj', 'miraj123'),
+('aryan', 'aryan123'),
+('nishit', 'nishit123'),
+('satyam', 'satyam123'),
+('rahul', 'rahul123'),
+('om', 'om123');
 -- --------------------------------------------------------
 
 --
