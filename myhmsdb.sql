@@ -67,18 +67,26 @@ CREATE TABLE `appointmenttb` (
 --
 
 INSERT INTO `appointmenttb` (`pid`, `ID`, `fname`, `lname`, `gender`, `email`, `contact`, `doctor`, `docFees`, `appdate`, `apptime`, `userStatus`, `doctorStatus`) VALUES
-(4, 1, 'Pavan', 'korat', 'Male', 'pavankorat@gmail.com', '8838489464', 'Ganesh', 550, '2020-02-14', '10:00:00', 1, 0),
-(4, 2, 'Pavan', 'korat', 'Male', 'pavankorat@gmail.com', '8838489464', 'Dinesh', 700, '2020-02-28', '10:00:00', 0, 1),
-(4, 3, 'Pavan', 'korat', 'Male', 'pavankorat@gmail.com', '8838489464', 'Amit', 1000, '2020-02-19', '03:00:00', 0, 1),
-(11, 4, 'Shraddha', 'Kapoor', 'Female', 'shraddha@gmail.com', '9768946252', 'ashok', 500, '2020-02-29', '20:00:00', 1, 1),
-(4, 5, 'Pavan', 'korat', 'Male', 'pavankorat@gmail.com', '8838489464', 'Dinesh', 700, '2020-02-28', '12:00:00', 1, 1),
-(4, 6, 'Pavan', 'korat', 'Male', 'pavankorat@gmail.com', '8838489464', 'Ganesh', 550, '2020-02-26', '15:00:00', 0, 1),
-(2, 8, 'Alia', 'Bhatt', 'Female', 'alia@gmail.com', '8976897689', 'Ganesh', 550, '2020-03-21', '10:00:00', 1, 1),
-(5, 9, 'Gautam', 'Shankararam', 'Male', 'gautam@gmail.com', '9070897653', 'Ganesh', 550, '2020-03-19', '20:00:00', 1, 0),
-(4, 10, 'Pavan', 'korat', 'Male', 'pavankorat@gmail.com', '8838489464', 'Ganesh', 550, '0000-00-00', '14:00:00', 1, 0),
-(4, 11, 'Pavan', 'korat', 'Male', 'pavankorat@gmail.com', '8838489464', 'Dinesh', 700, '2020-03-27', '15:00:00', 1, 1),
-(9, 12, 'William', 'Blake', 'Male', 'william@gmail.com', '8683619153', 'Kumar', 800, '2020-03-26', '12:00:00', 1, 1),
-(9, 13, 'William', 'Blake', 'Male', 'william@gmail.com', '8683619153', 'Tiwary', 450, '2020-03-26', '14:00:00', 1, 1);
+(21, 14, 'Aryan', 'Shah', 'Male', 'aryanshah@gmail.com', '9876543210', 'Rajesh', 600, '2022-05-10', '09:30:00', 1, 0),
+(22, 15, 'Kriti', 'Malhotra', 'Female', 'kriti@gmail.com', '8765432109', 'Vikas', 750, '2022-05-15', '11:00:00', 0, 1),
+(23, 16, 'Rahul', 'Gupta', 'Male', 'rahulgupta@gmail.com', '7654321098', 'Anjali', 900, '2022-05-20', '14:30:00', 0, 1),
+(24, 17, 'Mira', 'Sethi', 'Female', 'mira@gmail.com', '6543210987', 'Ravi', 1100, '2022-05-25', '16:00:00', 1, 1),
+(25, 18, 'Vivek', 'Singh', 'Male', 'vivek@gmail.com', '5432109876', 'Priya', 800, '2022-05-30', '10:30:00', 1, 1),
+(26, 19, 'Aisha', 'Kapoor', 'Female', 'aisha@gmail.com', '4321098765', 'Arjun', 950, '2022-06-05', '13:00:00', 0, 1),
+(27, 20, 'Rohan', 'Patel', 'Male', 'rohan@gmail.com', '3210987654', 'Nisha', 1200, '2022-06-10', '15:30:00', 0, 1),
+(28, 21, 'Sanya', 'Mehra', 'Female', 'sanya@gmail.com', '2109876543', 'Amit', 1000, '2022-06-15', '18:00:00', 1, 1),
+(29, 22, 'Karan', 'Chopra', 'Male', 'karan@gmail.com', '1098765432', 'Neha', 850, '2022-06-20', '09:30:00', 1, 0),
+(30, 23, 'Nidhi', 'Sharma', 'Female', 'nidhi@gmail.com', '9876543210', 'Rajat', 700, '2022-06-25', '11:00:00', 1, 1),
+(31, 24, 'Aarav', 'Joshi', 'Male', 'aarav@gmail.com', '8765432109', 'Kumar', 950, '2022-06-30', '14:30:00', 0, 1),
+(32, 25, 'Ishika', 'Saxena', 'Female', 'ishika@gmail.com', '7654321098', 'Tiwary', 550, '2022-07-05', '16:00:00', 1, 1),
+(33, 26, 'Rahul', 'Malik', 'Male', 'rahulmalik@gmail.com', '6543210987', 'Ganesh', 600, '2022-07-10', '10:30:00', 0, 1),
+(34, 27, 'Anushka', 'Verma', 'Female', 'anushka@gmail.com', '5432109876', 'Dinesh', 700, '2022-07-15', '13:00:00', 1, 1),
+(35, 28, 'Kabir', 'Shah', 'Male', 'kabir@gmail.com', '4321098765', 'Ganesh', 550, '2022-07-20', '15:30:00', 1, 1),
+(36, 29, 'Simran', 'Kumar', 'Female', 'simran@gmail.com', '3210987654', 'Vikas', 750, '2022-07-25', '18:00:00', 0, 1),
+(37, 30, 'Rohan', 'Mittal', 'Male', 'rohanmittal@gmail.com', '2109876543', 'Amit', 1000, '2022-07-30', '09:30:00', 1, 1),
+(38, 31, 'Sakshi', 'Rajput', 'Female', 'sakshi@gmail.com', '1098765432', 'Kumar', 800, '2022-08-04', '11:00:00', 0, 1),
+(39, 32, 'Aditya', 'Sharma', 'Male', 'aditya@gmail.com', '9876543210', 'Ganesh', 600, '2022-08-09', '14:30:00', 0, 1),
+(40, 33, 'Riya', 'Agarwal', 'Female', 'riya@gmail.com', '8765432109', 'Dinesh', 700, '2022-08-14', '16:00:00', 1, 1);
 
 -- --------------------------------------------------------
 
