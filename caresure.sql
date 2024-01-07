@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `myhmsdb`
+-- Database: `caresure`
 --
 
 -- --------------------------------------------------------
@@ -261,10 +261,26 @@ CREATE TABLE `prestb` (
 --
 
 INSERT INTO `prestb` (`doctor`, `pid`, `ID`, `fname`, `lname`, `appdate`, `apptime`, `disease`, `allergy`, `prescription`) VALUES
-('Dinesh', 4, 11, 'Pavan', 'korat', '2020-03-27', '15:00:00', 'Cough', 'Nothing', 'Just take a teaspoon of Benadryl every night'),
-('Ganesh', 2, 8, 'Alia', 'Bhatt', '2020-03-21', '10:00:00', 'Severe Fever', 'Nothing', 'Take bed rest'),
-('Kumar', 9, 12, 'William', 'Blake', '2020-03-26', '12:00:00', 'Sever fever', 'nothing', 'Paracetamol -> 1 every morning and night'),
-('Tiwary', 9, 13, 'William', 'Blake', '2020-03-26', '14:00:00', 'Cough', 'Skin dryness', 'Intake fruits with more water content');
+('Amit', 21, 14, 'Aryan', 'Shah', '2022-05-10', '09:30:00', 'Headache', 'None', 'Prescribed rest and stay hydrated'),
+('Vikas', 22, 15, 'Kriti', 'Malhotra', '2022-05-15', '11:00:00', 'Stomachache', 'Lactose intolerant', 'Avoid dairy products and take antacids'),
+('Anjali', 23, 16, 'Rahul', 'Gupta', '2022-05-20', '14:30:00', 'Allergies', 'Pollen', 'Prescribed antihistamines'),
+('Ravi', 24, 17, 'Mira', 'Sethi', '2022-05-25', '16:00:00', 'Back pain', 'None', 'Recommended gentle exercises and pain relievers'),
+('Priya', 25, 18, 'Vivek', 'Singh', '2022-05-30', '10:30:00', 'Migraine', 'None', 'Prescribed migraine medication and advised to rest'),
+('Arjun', 26, 19, 'Aisha', 'Kapoor', '2022-06-05', '13:00:00', 'Diabetes', 'None', 'Prescribed insulin and dietary changes'),
+('Nisha', 27, 20, 'Rohan', 'Patel', '2022-06-10', '15:30:00', 'High blood pressure', 'None', 'Prescribed blood pressure medication and advised lifestyle changes'),
+('Amit', 28, 21, 'Sanya', 'Mehra', '2022-06-15', '18:00:00', 'Insomnia', 'None', 'Suggested sleep hygiene practices and prescribed mild sleep aid'),
+('Neha', 29, 22, 'Karan', 'Chopra', '2022-06-20', '09:30:00', 'Anxiety', 'None', 'Recommended therapy and relaxation techniques'),
+('Rajat', 30, 23, 'Nidhi', 'Sharma', '2022-06-25', '11:00:00', 'Depression', 'None', 'Prescribed antidepressants and counseling sessions'),
+('Kumar', 31, 24, 'Aarav', 'Joshi', '2022-06-30', '14:30:00', 'Gastritis', 'None', 'Prescribed antacids and dietary changes'),
+('Tiwary', 32, 25, 'Ishika', 'Saxena', '2022-07-05', '16:00:00', 'Asthma', 'Dust and pollen', 'Prescribed inhaler and advised avoiding triggers'),
+('Ganesh', 33, 26, 'Rahul', 'Malik', '2022-07-10', '10:30:00', 'Arthritis', 'None', 'Prescribed pain relievers and recommended physical therapy'),
+('Dinesh', 34, 27, 'Anushka', 'Verma', '2022-07-15', '13:00:00', 'Hypertension', 'None', 'Prescribed blood pressure medication and advised regular monitoring'),
+('Ganesh', 35, 28, 'Kabir', 'Shah', '2022-07-20', '15:30:00', 'Allergies', 'Pet dander', 'Prescribed antihistamines and recommended minimizing exposure to pets'),
+('Vikas', 36, 29, 'Simran', 'Kumar', '2022-07-25', '18:00:00', 'Migraine', 'None', 'Prescribed migraine medication and advised to manage stress'),
+('Amit', 37, 30, 'Rohan', 'Mittal', '2022-07-30', '09:30:00', 'Acid reflux', 'None', 'Prescribed antacids and dietary modifications'),
+('Kumar', 38, 31, 'Sakshi', 'Rajput', '2022-08-04', '11:00:00', 'Sinusitis', 'None', 'Prescribed decongestants and advised nasal irrigation'),
+('Ganesh', 39, 32, 'Aditya', 'Sharma', '2022-08-09', '14:30:00', 'Eczema', 'None', 'Prescribed topical ointments and recommended moisturizers'),
+('Dinesh', 40, 33, 'Riya', 'Agarwal', '2022-08-14', '16:00:00', 'Insomnia', 'None', 'Prescribed sleep aid and advised sleep hygiene practices');
 
 --
 -- Indexes for dumped tables
