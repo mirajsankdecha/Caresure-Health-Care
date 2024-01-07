@@ -98,15 +98,26 @@ CREATE TABLE `contact` (
 --
 
 INSERT INTO `contact` (`name`, `email`, `contact`, `message`) VALUES
-('Anu', 'anu@gmail.com', '7896677554', 'Hey Admin'),
-(' Viki', 'viki@gmail.com', '9899778865', 'Good Job, Pal'),
-('Ananya', 'ananya@gmail.com', '9997888879', 'How can I reach you?'),
-('Aakash', 'aakash@gmail.com', '8788979967', 'Love your site'),
-('Mani', 'mani@gmail.com', '8977768978', 'Want some coffee?'),
-('Karthick', 'karthi@gmail.com', '9898989898', 'Good service'),
-('Abbis', 'abbis@gmail.com', '8979776868', 'Love your service'),
-('Asiq', 'asiq@gmail.com', '9087897564', 'Love your service. Thank you!'),
-('Jane', 'jane@gmail.com', '7869869757', 'I love your service!');
+('Sneha', 'sneha@gmail.com', '7896677554', 'Hey Admin'),
+('Vikrant', 'vikrant@gmail.com', '9899778865', 'Good Job, Pal'),
+('Aradhya', 'aradhya@gmail.com', '9997888879', 'How can I reach you?'),
+('Aryan', 'aryan@gmail.com', '8788979967', 'Love your site'),
+('Mihir', 'mihir@gmail.com', '8977768978', 'Want some coffee?'),
+('Kavya', 'kavya@gmail.com', '9898989898', 'Good service'),
+('Aarav', 'aarav@gmail.com', '8979776868', 'Love your service'),
+('Ashfaq', 'ashfaq@gmail.com', '9087897564', 'Love your service. Thank you!'),
+('Sara', 'sara@gmail.com', '7869869757', 'I love your service!'),
+('Ishaan', 'ishaan@gmail.com', '7896677554', 'Hey Admin'),
+('Ria', 'ria@gmail.com', '9899778865', 'Good Job, Pal'),
+('Rohan', 'rohan@gmail.com', '9997888879', 'How can I reach you?'),
+('Aisha', 'aisha@gmail.com', '8788979967', 'Love your site'),
+('Kabir', 'kabir@gmail.com', '8977768978', 'Want some coffee?'),
+('Aanya', 'aanya@gmail.com', '9898989898', 'Good service'),
+('Aadi', 'aadi@gmail.com', '8979776868', 'Love your service'),
+('Ahmed', 'ahmed@gmail.com', '9087897564', 'Love your service. Thank you!'),
+('Tanisha', 'tanisha@gmail.com', '7869869757', 'I love your service!'),
+('Veer', 'veer@gmail.com', '7896677554', 'Hey Admin'),
+('Dia', 'dia@gmail.com', '9899778865', 'Good Job, Pal');
 
 -- --------------------------------------------------------
 
