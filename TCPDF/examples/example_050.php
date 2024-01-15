@@ -38,11 +38,11 @@ $pdf->SetSubject('TCPDF Tutorial');
 $pdf->SetKeywords('TCPDF, PDF, example, test, guide');
 
 // set default header data
-$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, PDF_HEADER_TITLE . ' 050', PDF_HEADER_STRING);
+$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, PDF_HEADER_TITLE.' 050', PDF_HEADER_STRING);
 
 // set header and footer fonts
-$pdf->setHeaderFont(array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
-$pdf->setFooterFont(array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
+$pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
+$pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
 
 // set default monospaced font
 $pdf->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
@@ -59,14 +59,14 @@ $pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
 $pdf->setImageScale(PDF_IMAGE_SCALE_RATIO);
 
 // set some language-dependent strings (optional)
-if (@file_exists(dirname(__FILE__) . '/lang/eng.php')) {
-	require_once(dirname(__FILE__) . '/lang/eng.php');
+if (@file_exists(dirname(__FILE__).'/lang/eng.php')) {
+	require_once(dirname(__FILE__).'/lang/eng.php');
 	$pdf->setLanguageArray($l);
 }
 
 // ---------------------------------------------------------
 
-// NOTE: 2D barcode algoritcaresure must be implemented on 2dbarcode.php class file.
+// NOTE: 2D barcode algorithms must be implemented on 2dbarcode.php class file.
 
 // set font
 $pdf->SetFont('helvetica', '', 11);
@@ -88,7 +88,7 @@ $style = array(
 	'border' => true,
 	'vpadding' => 'auto',
 	'hpadding' => 'auto',
-	'fgcolor' => array(0, 0, 0),
+	'fgcolor' => array(0,0,0),
 	'bgcolor' => false, //array(255,255,255)
 	'module_width' => 1, // width of a single module in points
 	'module_height' => 1 // height of a single module in points
@@ -110,7 +110,7 @@ $style = array(
 	'border' => 2,
 	'vpadding' => 'auto',
 	'hpadding' => 'auto',
-	'fgcolor' => array(0, 0, 0),
+	'fgcolor' => array(0,0,0),
 	'bgcolor' => false, //array(255,255,255)
 	'module_width' => 1, // width of a single module in points
 	'module_height' => 1 // height of a single module in points
@@ -180,8 +180,8 @@ $pdf->Text(80, 145, 'DATAMATRIX (ISO/IEC 16022:2006)');
 $style = array(
 	'border' => 2,
 	'padding' => 'auto',
-	'fgcolor' => array(0, 0, 255),
-	'bgcolor' => array(255, 255, 64)
+	'fgcolor' => array(0,0,255),
+	'bgcolor' => array(255,255,64)
 );
 
 // QRCODE,H : QR-CODE Best error correction
@@ -192,7 +192,7 @@ $pdf->Text(80, 205, 'QRCODE H - COLORED');
 $style = array(
 	'border' => false,
 	'padding' => 0,
-	'fgcolor' => array(128, 0, 0),
+	'fgcolor' => array(128,0,0),
 	'bgcolor' => false
 );
 

@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con = mysqli_connect("sql304.infinityfree.com", "if0_35724914", "oDrVXYn3NvpgsWF", "if0_35724914_caresure");
+$con = mysqli_connect("localhost", "root", "", "caresure");
 if (isset($_POST['docsub1'])) {
   $dname = $_POST['username3'];
   $dpass = $_POST['password3'];

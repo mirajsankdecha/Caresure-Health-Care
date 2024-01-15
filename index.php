@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>caresure</title>
+    <title>HMS</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
     <link rel="stylesheet" type="text/css" href="style1.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
@@ -91,7 +91,7 @@
     <div class="container register" style="font-family: 'IBM Plex Sans', sans-serif;">
         <div class="row">
             <div class="col-md-3 register-left" style="margin-top: 10%; right: 5%">
-                <img src="https://img.freepik.com/premium-photo/doctor-man-adult-standing-straight-hospital-office_884296-298.jpg?w=360" alt="if0_35724914_caresure" style="width: 100%; height: auto;">
+                <img src="https://img.freepik.com/premium-photo/doctor-man-adult-standing-straight-hospital-office_884296-298.jpg?w=360" alt="Caresure" style="width: 100%; height: auto;">
                 <h3>Welcome</h3>
             </div>
 

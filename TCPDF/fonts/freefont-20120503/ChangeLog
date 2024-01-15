@@ -2191,7 +2191,7 @@
 	  FreeSerif.sfd,
 	  FreeSerifBold.sfd: general glyph alterations
 	  toward validation. some of these are due to some bug in FontForge
-	  algoritcaresure -- nothing was apparently wrong with the glyphs.
+	  algorithms -- nothing was apparently wrong with the glyphs.
 
 2011-11-27 00:34 +0000 [r1907-1908]  Stevan_White:
 
