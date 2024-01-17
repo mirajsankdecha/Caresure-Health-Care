@@ -34,7 +34,7 @@ include("header.php");
   }
 </style>
 
-<body style="background: -webkit-linear-gradient(left, #3931af, #00c6ff); background-size: cover;">
+<body style="background: -webkit-linear-gradient(left, #ff5e62, #ffa23a); background-size: cover;">
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
 

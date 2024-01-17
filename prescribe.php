@@ -72,7 +72,7 @@ if (isset($_POST['prescribe']) && isset($_POST['pid']) && isset($_POST['ID']) &&
 
     <style>
       .bg-primary {
-        background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+        background: -webkit-linear-gradient(left, #ff5e62, #ffa23a);
       }
 
       .list-group-item.active {
