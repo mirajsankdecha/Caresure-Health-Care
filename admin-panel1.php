@@ -541,7 +541,7 @@ if (isset($_POST['docsub1'])) {
             <option value="Vascular Surgeon" name="spec">Vascular Surgeon</option>
             <option value="Pediatric Cardiologist" name="spec">Pediatric Cardiologist</option>
             <option value="Pediatric Neurologist" name="spec">Pediatric Neurologist</option>
-           
+            <option value="Reproductive Endocrinologist" name="spec">Reproductive Endocrinologist</option>
         </select>
     </div><br><br>
     <div class="col-md-4"><label>Email ID:</label></div>
