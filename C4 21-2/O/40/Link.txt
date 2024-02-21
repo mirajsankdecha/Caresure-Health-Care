@@ -1,8 +1,0 @@
-References:
-
-Hospital Management System GitHub Repository:
-
-Repository Link: Hospital Management System :  https://github.com/kishan0725/Hospital-Management-System
-Wireframe Source: https://www.figma.com/
-
-Wireframes were created using FIGma.
